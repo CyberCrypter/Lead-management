@@ -1,1 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Sora:wght@500;700;800&display=swap");
 @import "tailwindcss";
+
+:root {
+	--surface: #020617;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: "Space Grotesk", sans-serif;
+	background: var(--surface);
+}
+
+h1,
+h2,
+h3 {
+	font-family: "Sora", sans-serif;
+}
+
+.animate-fade-in-up {
+	animation: fadeInUp 0.45s ease-out both;
+}
+
+@keyframes fadeInUp {
+	from {
+		opacity: 0;
+		transform: translateY(8px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
