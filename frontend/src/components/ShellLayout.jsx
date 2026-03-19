@@ -19,8 +19,8 @@ const ShellLayout = () => {
 
   return (
     <div className="relative min-h-screen overflow-hidden bg-(--surface)text-slate-100">
-      <div className="pointer-events-none absolute -top-16 right-[-120px] h-72 w-72 rounded-full bg-cyan-400/20 blur-3xl" />
-      <div className="pointer-events-none absolute bottom-0 left-[-120px] h-72 w-72 rounded-full bg-amber-300/20 blur-3xl" />
+      <div className="pointer-events-none absolute -top-16 -right-30 h-72 w-72 rounded-full bg-cyan-400/20 blur-3xl" />
+      <div className="pointer-events-none absolute bottom-0 -left-30 h-72 w-72 rounded-full bg-amber-300/20 blur-3xl" />
 
       <header className="relative border-b border-white/10 bg-white/5 backdrop-blur-md">
         <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3 px-4 py-4 sm:px-6 lg:px-8">
