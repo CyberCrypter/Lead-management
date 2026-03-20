@@ -31,8 +31,8 @@ const LoginPage = () => {
   };
 
   return (
-    <div className="grid min-h-screen place-items-center bg-[radial-gradient(circle_at_20%_20%,#164e63_0%,#020617_45%,#0f172a_100%)] px-4">
-      <div className="w-full max-w-md rounded-3xl border border-white/15 bg-slate-950/60 p-8 backdrop-blur-md">
+    <div className="grid min-h-screen place-items-center bg-[radial-gradient(circle_at_10%_10%,#164e63_0%,#020617_45%,#0f172a_100%)] px-4">
+      <div className="w-full max-w-md rounded-md border border-white/15 bg-slate-950/60 p-8 backdrop-blur-md">
         <p className="text-xs font-semibold uppercase tracking-[0.3em] text-cyan-300">Admin Access</p>
         <h1 className="mt-2 text-3xl font-black text-white">Welcome Back</h1>
         <p className="mt-2 text-sm text-slate-300">Sign in to manage your leads and track conversions.</p>

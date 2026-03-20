@@ -39,9 +39,9 @@ const LeadTable = ({ leads, onEdit, onDelete, onStatusChange }) => {
                   <select
                     value={lead.status}
                     onChange={(event) => onStatusChange(lead, event.target.value)}
-                    className={`rounded-full px-3 py-1 text-xs font-semibold ring-1 ${colorByStatus[lead.status]}`}
+                    className={`rounded-full px-3 py-1 text-xs text-black bg-yellow-300 font-semibold ring-1`}
                   >
-                    <option value="New">New</option>
+                    <option className="text-black" value="New">New</option>
                     <option value="Contacted">Contacted</option>
                     <option value="Converted">Converted</option>
                   </select>

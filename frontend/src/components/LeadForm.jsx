@@ -43,8 +43,8 @@ const LeadForm = ({ onSubmit, loading, lead, onCancel }) => {
   };
 
   return (
-    <form onSubmit={submit} className="grid gap-4 rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur-sm">
-      <div className="grid gap-4 md:grid-cols-2">
+    <form onSubmit={submit} className="grid gap-4 text-white rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur-sm">
+      <div className="grid gap-4 text-white md:grid-cols-2">
         <label className="grid gap-2 text-sm">
           <span className="text-slate-200">Name</span>
           <input
@@ -53,11 +53,11 @@ const LeadForm = ({ onSubmit, loading, lead, onCancel }) => {
             value={form.name}
             onChange={updateField}
             className="rounded-xl border border-white/20 bg-slate-950/70 px-3 py-2 outline-none ring-cyan-300 transition focus:ring"
-            placeholder="e.g. Alicia Turner"
+            placeholder="name"
           />
         </label>
 
-        <label className="grid gap-2 text-sm">
+        <label className="grid gap-2  text-sm">
           <span className="text-slate-200">Email</span>
           <input
             required
@@ -66,7 +66,7 @@ const LeadForm = ({ onSubmit, loading, lead, onCancel }) => {
             value={form.email}
             onChange={updateField}
             className="rounded-xl border border-white/20 bg-slate-950/70 px-3 py-2 outline-none ring-cyan-300 transition focus:ring"
-            placeholder="lead@example.com"
+            placeholder="example@gmail.com"
           />
         </label>
 
@@ -78,7 +78,7 @@ const LeadForm = ({ onSubmit, loading, lead, onCancel }) => {
             value={form.phone}
             onChange={updateField}
             className="rounded-xl border border-white/20 bg-slate-950/70 px-3 py-2 outline-none ring-cyan-300 transition focus:ring"
-            placeholder="+91 90000 00000"
+            placeholder="+919876543321"
           />
         </label>
 

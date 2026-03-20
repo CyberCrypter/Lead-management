@@ -32,7 +32,7 @@ const RegisterPage = () => {
 
   return (
     <div className="grid min-h-screen place-items-center bg-[radial-gradient(circle_at_80%_20%,#7c2d12_0%,#020617_45%,#0f172a_100%)] px-4">
-      <div className="w-full max-w-md rounded-3xl border border-white/15 bg-slate-950/60 p-8 backdrop-blur-md">
+      <div className="w-full max-w-md rounded-md border border-white/15 bg-slate-950/60 p-8 backdrop-blur-md">
         <p className="text-xs font-semibold uppercase tracking-[0.3em] text-amber-300">Admin Setup</p>
         <h1 className="mt-2 text-3xl font-black text-white">Create Account</h1>
         <p className="mt-2 text-sm text-slate-300">Register an admin user to access the CRM dashboard.</p>

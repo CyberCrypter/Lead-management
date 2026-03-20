@@ -122,7 +122,7 @@ const LeadsPage = () => {
 
       <form
         onSubmit={applyFilters}
-        className="grid gap-3 rounded-2xl border border-white/10 bg-white/5 p-4 md:grid-cols-[1fr_220px_auto]"
+        className="grid gap-3 rounded-2xl border text-white border-white/10 bg-white/5 p-4 md:grid-cols-[1fr_220px_auto]"
       >
         <input
           value={search}
@@ -134,9 +134,9 @@ const LeadsPage = () => {
         <select
           value={status}
           onChange={(event) => setStatus(event.target.value)}
-          className="rounded-xl border border-white/20 bg-slate-950/70 px-3 py-2 outline-none ring-cyan-300 transition focus:ring"
+          className="rounded-xl border border-white/20 bg-slate-950/70 px-3  py-2 outline-none ring-cyan-300 transition focus:ring"
         >
-          <option value="">All Statuses</option>
+          <option value="">All Status</option>
           <option value="New">New</option>
           <option value="Contacted">Contacted</option>
           <option value="Converted">Converted</option>

@@ -25,7 +25,7 @@ const ShellLayout = () => {
       <header className="relative border-b border-white/10 bg-white/5 backdrop-blur-md">
         <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3 px-4 py-4 sm:px-6 lg:px-8">
           <Link to="/dashboard" className="text-xl font-black tracking-tight text-white">
-            Lead Orbit
+            Lead Management
           </Link>
 
           <nav className="flex items-center gap-2 rounded-full border border-white/10 bg-black/20 p-1">
