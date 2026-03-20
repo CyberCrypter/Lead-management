@@ -1,4 +1,4 @@
-# CRM Lead Management System
+# Lead Management System
 
 A full-stack Lead Management System with secure admin authentication, lead lifecycle tracking, file attachments, and dashboard analytics.
 
