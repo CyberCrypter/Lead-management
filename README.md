@@ -10,7 +10,7 @@ A full-stack Lead Management System with secure admin authentication, lead lifec
 ## Project Structure
 
 ```text
-CRM/
+Lead-management/
   backend/
   frontend/
 ```
@@ -21,7 +21,7 @@ CRM/
 
 ```bash
 git clone <your-repository-url>
-cd CRM
+cd Lead-management
 ```
 
 ### 2. Install dependencies
